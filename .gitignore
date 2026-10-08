@@ -8,6 +8,9 @@ UnityProject/[Oo]bj/
 UnityProject/[Ll]ogs/
 UnityProject/[Uu]serSettings/
 UnityProject/Builds/
+UnityProject/.utmp/
+UnityProject/.gradle/
+UnityProject/.vs/
 UnityProject/Assets/ImportedWorlds/
 UnityProject/Assets/ImportedWorlds.meta
 results/
@@ -16,3 +19,4 @@ local-data/
 *.csproj
 *.sln
 *.user
+

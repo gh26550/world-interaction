@@ -1,0 +1,1 @@
+{"name":"WorldInteraction.Editor","rootNamespace":"WorldInteraction.Editor","references":["WorldInteraction.Runtime","Unity.XR.Management","Unity.XR.Management.Editor","Unity.XR.OpenXR","Unity.XR.OpenXR.Editor"],"includePlatforms":["Editor"]}

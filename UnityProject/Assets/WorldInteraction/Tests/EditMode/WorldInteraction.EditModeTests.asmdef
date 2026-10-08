@@ -1,0 +1,1 @@
+{"name":"WorldInteraction.EditModeTests","references":["WorldInteraction.Runtime","WorldInteraction.Editor"],"optionalUnityReferences":["TestAssemblies"],"includePlatforms":["Editor"]}
