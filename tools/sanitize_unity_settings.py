@@ -12,7 +12,7 @@ def sanitize(path):
         match=re.search(r'^  '+field+r':([^\n]*)',cleaned,re.MULTILINE)
         if match and match.group(1).strip():
             raise ValueError(f'Nonempty sensitive setting: {field}. Review locally; do not publish.')
-    path.write_text(cleaned,encoding='utf-8')
+    path.write_bytes(cleaned.encode('utf-8'))
     return count
 
 if __name__=='__main__':
